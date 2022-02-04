@@ -1,3 +1,10 @@
+/*@tailwind base;
+@tailwind components;
+@tailwind utilities;*/
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
 html,
 body {
   padding: 0;
@@ -13,4 +20,14 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+.nav-ul li {
+  padding: 30px 25px 0px 25px;
+  color: #707070;
+  font-size: medium;
+}
+
+.nav-ul li:hover {
+  color: rgb(19, 151, 175);
 }
