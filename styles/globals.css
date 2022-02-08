@@ -4,6 +4,7 @@
 @import "tailwindcss/base";
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
+@import url("https://fonts.googleapis.com/css2?family=Proza+Libre:wght@400;800&display=swap");
 
 html,
 body {
@@ -22,12 +23,24 @@ a {
   box-sizing: border-box;
 }
 
+.title {
+  font-family: "Proza Libre", sans-serif;
+}
+
 .nav-ul li {
   padding: 30px 25px 0px 25px;
   color: #707070;
   font-size: medium;
 }
 
-.nav-ul li:hover {
+.nav-ul a:hover,
+.active {
   color: rgb(19, 151, 175);
+  border-bottom: 5px solid rgb(19, 151, 175);
+  border-radius: 5px;
+  padding-bottom: 10px;
+}
+
+.services-svg {
+  z-index: -1;
 }
