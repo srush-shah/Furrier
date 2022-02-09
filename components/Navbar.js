@@ -16,7 +16,7 @@ export default function Navbar() {
            <div className="grow"></div>
            <ul className="flex-none flex nav-ul">
                <li><Link href="/"><a href="#" className={router.pathname == "/" ? "active" : ""}>Home</a></Link></li>
-               <li><Link href="/services"><a href="#" className={router.pathname == "/services" ? "active" : ""}>Services</a></Link></li>
+               <li><Link href="/services"><a href="#" className={router.pathname == "/services" ? "active" : ""}>Services Made changes</a></Link></li>
                <li><Link href="/adoption"><a href="#" className={router.pathname == "/adoption" ? "active" : ""}>Adoption</a></Link></li>
                <li><Link href="/help_desk"><a href="#" className={router.pathname == "/help_desk" ? "active" : ""}>Help Desk</a></Link></li>
                <li><Link href="/about_us"><a href="#" className={router.pathname == "/about_us" ? "active" : ""}>About Us</a></Link></li>
