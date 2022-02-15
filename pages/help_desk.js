@@ -8,14 +8,14 @@ class Help extends Component {
     return (
         <div>
             <Navbar />
-            <div className="mx-20 md:ml-40 my-32">
-            <div className="flex">
-            <h1 className="flex-grow title font-sans text-5xl md:text-5xl lg:text-6xl font-bold text-pink-500 mb-16">FAQs</h1>
-            <form className="relative">
-                <input type="text" placeholder="Search.." className="border-2 p-3 rounded-full" /><BiSearchAlt className="absolute top-5 right-5"/>
+            <div className="mx-5 md:mx-20 mb-32 mt-14">
+            <div className="flex flex-col md:flex-row">
+            <h1 className="flex-grow title font-sans text-3xl md:text-5xl lg:text-6xl font-bold text-pink-500 md:mb-10">FAQs</h1>
+            <form className="relative my-10 md:m-0">
+                <input type="text" placeholder="Search.." className="border-2 p-3 rounded-full" /><BiSearchAlt className="absolute top-4 text-xl left-40 md:right-5"/>
             </form>
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-20">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-0 md:gap-20">
                 <div>
                     <h2 className="font-bold">1. Where are you located(From where can I adopt a pet)? </h2>
                     <p>Currently, We are located at Ahmedabad/Gandhinagar.</p>

@@ -10,7 +10,7 @@ export default function Navbar() {
 
     return (
         <div className=" flex mb-6">
-           <div className="flex-none flex w-14 md:w-28 items-center my-auto border-r-2 border-b-2 border-gray-200 bg-white shadow-md rounded-r-full fixed">
+           <div className="flex-none flex w-14 md:w-28 items-center my-auto border-r-2 border-b-2 border-gray-200 bg-white shadow-md rounded-r-full">
             <Link href="/"><Image src="/logo.png" alt="Vercel Logo" height="80px" width="100px" /></Link>
            </div>
            <div className="grow"></div>
