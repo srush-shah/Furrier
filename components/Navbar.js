@@ -10,8 +10,8 @@ export default function Navbar() {
 
     return (
         <div className=" flex mb-6">
-           <div className="flex-none flex w-28 items-center my-auto border-r-2 border-b-2 border-gray-200 bg-white shadow-md rounded-r-full fixed">
-               <Image src="/logo.png" alt="Vercel Logo" height="80px" width="100px" className=""/>
+           <div className="flex-none flex w-14 md:w-28 items-center my-auto border-r-2 border-b-2 border-gray-200 bg-white shadow-md rounded-r-full fixed">
+            <Link href="/"><Image src="/logo.png" alt="Vercel Logo" height="80px" width="100px" /></Link>
            </div>
            <div className="grow"></div>
            <ul className="flex-none flex nav-ul">
@@ -23,11 +23,11 @@ export default function Navbar() {
                <li><Link href="/adoption/pets"><a href="#" className={router.pathname == "/adoption/pets" ? "active" : ""}>Available Pets</a></Link></li>
                <li><Link href="/adoption/guidelines"><a href="#" className={router.pathname == "/adoption/guidelines" ? "active" : ""}>Guidelines</a></Link></li>
                </div>
-    </div>*/}
+            </div>*/}
                  <li><Link href="/adoption/pets"><a href="#" className={router.pathname == "/adoption/pets" ? "active" : ""}>Available Pets</a></Link></li>
-               <li><Link href="/adoption/guidelines"><a href="#" className={router.pathname == "/adoption/guidelines" ? "active" : ""}>Guidelines</a></Link></li>
+               <li className="hidden md:inline-block"><Link href="/adoption/guidelines"><a href="#" className={router.pathname == "/adoption/guidelines" ? "active" : ""}>Guidelines</a></Link></li>
                <li><Link href="/help_desk"><a href="#" className={router.pathname == "/help_desk" ? "active" : ""}>Help Desk</a></Link></li>
-               <li><Link href="/about_us"><a href="#" className={router.pathname == "/about_us" ? "active" : ""}>About Us</a></Link></li>
+               <li className="hidden md:inline-block"><Link href="/about_us"><a href="#" className={router.pathname == "/about_us" ? "active" : ""}>About Us</a></Link></li>
                <li className="hidden"><Link href="/profile"><a href="#" className={router.pathname == "/profile" ? "active" : ""}>Profile</a></Link></li>
            </ul>
            <div className="grow"></div>

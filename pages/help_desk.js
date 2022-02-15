@@ -1,5 +1,7 @@
 import React,{Component} from "react";
 import Navbar from "../components/Navbar";
+import {BiSearchAlt} from "react-icons/bi";
+import Footer from "../components/Footer";
 
 class Help extends Component {
     render() {
@@ -7,8 +9,13 @@ class Help extends Component {
         <div>
             <Navbar />
             <div className="mx-20 md:ml-40 my-32">
-            <h1 className="title font-sans text-5xl md:text-5xl lg:text-6xl font-bold text-pink-500 mb-16">FAQs</h1>
-            <div className="grid grid-cols-2 gap-20">
+            <div className="flex">
+            <h1 className="flex-grow title font-sans text-5xl md:text-5xl lg:text-6xl font-bold text-pink-500 mb-16">FAQs</h1>
+            <form className="relative">
+                <input type="text" placeholder="Search.." className="border-2 p-3 rounded-full" /><BiSearchAlt className="absolute top-5 right-5"/>
+            </form>
+            </div>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-20">
                 <div>
                     <h2 className="font-bold">1. Where are you located(From where can I adopt a pet)? </h2>
                     <p>Currently, We are located at Ahmedabad/Gandhinagar.</p>
@@ -56,6 +63,7 @@ class Help extends Component {
                 </div>
             </div>
             </div>
+            <Footer />
         </div>
     );
     }

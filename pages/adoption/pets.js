@@ -1,5 +1,6 @@
 import React,{Component} from "react";
 import Navbar from "../../components/Navbar";
+import Footer from "../../components/Footer"
 
 class Available extends Component {
     render() {
@@ -18,6 +19,7 @@ class Available extends Component {
             <h1 className="mx-auto text-xl font-semibold">Cats</h1>
             </div>
             </div>
+            <Footer />
         </div>
     );
     }

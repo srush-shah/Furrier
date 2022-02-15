@@ -1,5 +1,6 @@
 import React,{Component} from "react";
 import Navbar from "../../components/Navbar";
+import Footer from "../../components/Footer"
 
 class Guidelines extends Component {
     render() {
@@ -42,6 +43,7 @@ class Guidelines extends Component {
             </div>
             <button className="border-r-2 border-b-2 border-l-2 border-gray-200 bg-white shadow-md rounded-r-full rounded-l-full p-6 font-bold text-pink-500 text-xl hover:shadow-lg w-full md:w-52">Available Pets</button>
             </div>
+            <Footer />
         </div>
     );
     }

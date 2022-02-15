@@ -3,8 +3,8 @@ import React,{Component} from "react";
 class Grid extends Component {
     render() {
     return (
-        <div className="service-grid mx-24 mt-56 ">
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 grid-flow-row gap-x-32 gap-y-40 text-center">
+        <div>
+            <div className="mt-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 grid-flow-row gap-x-32 gap-y-40 text-center">
             <div>
                 <div className ="bg-gray-300 h-48 w-52 mx-auto bg-[url('https://source.unsplash.com/random/100×100/?cats')] bg-cover rounded-2xl shadow-lg shadow-slate-600" />
                 <h2 className="mt-10 mb-4 text-2xl text-emerald-600 font-semibold">Vet</h2>
