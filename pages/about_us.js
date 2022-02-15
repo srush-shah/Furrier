@@ -7,17 +7,19 @@ class about extends Component {
     return (
         <div>
             <Navbar />
-            <div className="px-20 md:pl-40 flex flex-col justify-center items-center my-48">
-            <div className="grid grid-cols-1 lg:grid-cols-2 h-1/2 gap-20">
-            <div className="flex flex-col justify-center items-center">
-            <h1 className="title font-sans text-3xl md:text-5xl lg:text-6xl font-bold text-pink-500 mb-16">About Us</h1>
-                <p>Furrier is an Animal Welfare platform and an Information Hub for current and prospective pet owners, which aims to assist the owners in taking better care for their pets, by connecting them with essential facilities/services and by providing services like health/medication monitoring, diet plans for pets etc.</p>
-                <br />
-                <p>Furthermore, we also aim to Promote and assist adoption of animals and contribute towards other animal welfare programs as well as create awareness regarding prominent issues of Animal Welfare, and propose possible solutions</p>
+            <section class="text-gray-600 body-font h-min-screen md:my-20">
+            <div class="container mx-auto flex px-5 py-10 md:py-24 md:flex-row flex-col items-center">
+                <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left items-center text-center">
+                <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-cyan-600">About Us
+                    <br class="hidden lg:inline-block" />
+                </h1>
+                <p class="mb-8 leading-relaxed">Furrier is an Animal Welfare platform and an Information Hub for current and prospective pet owners, which aims to assist the owners in taking better care for their pets, by connecting them with essential facilities/services and by providing services like health/medication monitoring, diet plans for pets etc. Furthermore, we also aim to Promote and assist adoption of animals and contribute towards other animal welfare programs as well as create awareness regarding prominent issues of Animal Welfare, and propose possible solutions</p>
+                </div>
+                <div class="lg:max-w-lg lg:w-1/2 md:w-1/2">
+                <img class="object-cover object-center rounded" alt="hero" src="/about-us.png"></img>
+                </div>
             </div>
-            <div className="hidden lg:inline-block w-full bg-[url('../public/about-us.png')] bg-no-repeat bg-contain" ></div>  
-            </div>
-            </div>
+            </section>
             <Footer />
         </div>
     );

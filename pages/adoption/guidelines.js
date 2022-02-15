@@ -7,7 +7,7 @@ class Guidelines extends Component {
     return (
         <div>
             <Navbar />
-            <div className="mx-20 md:ml-40 my-32">
+            <div className="mx-5 md:mx-20 mb-32 mt-14">
             <h1 className="title font-sans text-3xl md:text-5xl lg:text-6xl font-bold text-pink-500 mb-16">Guideliness for Adoption</h1>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-x-20 md:gap-20 mb-10">
                 <div>
@@ -41,7 +41,7 @@ class Guidelines extends Component {
                     <br/>
                 </div>
             </div>
-            <button className="border-r-2 border-b-2 border-l-2 border-gray-200 bg-white shadow-md rounded-r-full rounded-l-full p-6 font-bold text-pink-500 text-xl hover:shadow-lg w-full md:w-52">Available Pets</button>
+            <button className="border-r-2 border-b-2 border-l-2 border-gray-200 bg-white shadow-md rounded-r-full rounded-l-full p-5 md:p-6 font-bold text-pink-500 text-md md:text-xl hover:shadow-lg md:w-52">Available Pets</button>
             </div>
             <Footer />
         </div>
